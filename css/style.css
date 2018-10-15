@@ -1,15 +1,70 @@
 body {
   background-color: #f5f5f5;
+  font-family: Arial;
 }
 div {
-  background-color: white;
+  background-color: #ffffff;
   padding: 10px;
   margin: 10px;
-  border: 1px solid #777777;
+  border: 1px solid #a8a8a8;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
 }
 #motto {
-  color: red;
+  color: darkblue;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  color: #374458;
 }
 .favorite {
   font-weight: bold;
+}
+.main-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #283e4a;
+}
+
+.menu-button {
+  float: right;
+}
+
+.menu-button a {
+  display: block;
+  color: #c7d1d8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-button a:hover {
+  background-color: rgb(11, 8, 41);
+  color: white;
+}
+.skills {
+  background-color: white;
+}
+.favorite {
+  text-align: left !important;
+}
+.profile-pic {
+  align-items: center;
+  max-width: 300px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.personal-details {
+  text-align: center;
+}
+.dates {
+  width: 150px;
 }
