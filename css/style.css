@@ -57,7 +57,8 @@ h2 {
 }
 .profile-pic {
   align-items: center;
-  max-width: 300px;
+  max-width: 200px;
+  border-radius: 150px;
 }
 img {
   display: block;
