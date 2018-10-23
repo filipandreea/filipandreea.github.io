@@ -2,30 +2,6 @@ body {
   background-color: #f5f5f5;
   font-family: Arial;
 }
-.test {
-  border: 1px solid #000;
-  margin: 5px;
-  padding: 5px;
-}
-#content-wrap {
-  border-color: blue;
-}
-#left-sidebar {
-  width: 30%;
-  float: left;
-  border-color: red;
-}
-#content {
-  border-color: green;
-  padding-left: 60%;
-}
-#content div {
-  border-color: lightgreen;
-}
-#contact,
-#news {
-  height: 80px;
-}
 div {
   background-color: #ffffff;
   padding: 10px;
